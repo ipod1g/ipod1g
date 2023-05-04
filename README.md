@@ -1,5 +1,5 @@
 <p>
-  <img alt="Galaxy Whirl" title="gif" width="500px" src="https://i.ibb.co/DVFgnX1/banner.png" alt="banner" border="0" />
+  <img alt="Galaxy Whirl" title="gif" width="620px" src="https://i.ibb.co/hCHZWnC/banner.png" alt="banner" border="0" />
 </p>
 <h1 align="left">Hi!</h1>
 <h3 align="left">I am a self-taught Frontend web developer passionate about creating aesthetic and functional experiences!</h3>
@@ -11,9 +11,9 @@
 
 - 👨‍💻 All of my projects are available at [My Homepage](https://cvbono.vercel.app/)
 
-- 📫 How to reach me **kubonkwan99@gmail.com**
+- 📫 Email me : **kubonkwan99@gmail.com**
 
-- 📄 Know about my experiences [CV Google Doc](https://docs.google.com/document/d/1iOCAEYbtnJaxwnk-93Wl93FD0sGByxqgnPY7pwAdHWQ/edit?usp=sharing)
+- 📄 Know about my experiences : [To Google Docs](https://docs.google.com/document/d/1iOCAEYbtnJaxwnk-93Wl93FD0sGByxqgnPY7pwAdHWQ/edit?usp=sharing)
 
 
 <h3 align="left">Languages and Tools:</h3>
