@@ -3,6 +3,7 @@
 </p>
 <h1 align="left">Hi!</h1>
 <h3 align="left">I am a self-taught Frontend web developer passionate about creating aesthetic and functional experiences!</h3>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ipod1g&label=Profile%20views&color=E0B0FF&style=flat" alt="ipod1g profile views" /> </p>
 <p align="left">
   <img alt="Galaxy Whirl" title="gif" width="200px" src="https://gifdb.com/images/high/galaxy-zoom-in-glow-rlgrdz3ue0kvpiso.webp"/>
 </p>
