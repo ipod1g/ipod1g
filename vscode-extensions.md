@@ -18,6 +18,7 @@
 - Pretty TypeScript Errors
 - Tailwind CSS IntelliSense
 - Template String Converter
+- Vibrancy Continued
 - vscode-icons
 - WSL
 ---
@@ -25,3 +26,4 @@ Disabled
 - ES7 + React/Redux/React-Native snippets
 - Live Server
 - Prisma
+- Solarized Osaka
