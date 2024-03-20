@@ -1,0 +1,29 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.navigateDown"
+  }
+  // {
+  //   "key": "tab",
+  //   "command": "tab",
+  //   "when": "editorTextFocus && !editorReadonly && vim.mode == 'Normal"
+  // },
+  // {
+  //   "key": "shift+tab",
+  //   "command": "outdent",
+  //   "when": "editorTextFocus && !editorReadonly && vim.mode == 'Normal'"
+  // }
+]
