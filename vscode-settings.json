@@ -1,5 +1,6 @@
 {
-  // * Functional Settings
+  // Functional Settings
+
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -64,8 +65,18 @@
     "git-rebase-todo": "gitlens.rebase"
   },
 
-  // * Visual Settings
-  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  // Visual Settings
+
+  // "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Geist Mono Variable Light, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "scm.inputFontFamily": "Geist Mono Variable Regular",
+  "notebook.output.fontFamily": "Geist Mono Variable Regular",
+  "debug.console.fontFamily": "Geist Mono Variable Regular",
+  "editor.codeLensFontFamily": "Geist Mono Variable Regular",
+  "editor.inlayHints.fontFamily": "Geist Mono Variable Regular",
+  "errorLens.fontFamily": "Geist Mono Variable Regular",
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
 
   "workbench.iconTheme": "vscode-icons",
@@ -73,8 +84,9 @@
   "workbench.colorCustomizations": {
     "[Kimbie Dark]": {
       // "editor.background": "#7c502166"
-      "terminal.background": "#171E20",
-      "titleBar.activeBackground": "#171E20"
+      // enable for Vibrancy Continued Extension
+      // "terminal.background": "#171E20",
+      // "titleBar.activeBackground": "#171E20"
     }
   },
 
@@ -89,13 +101,13 @@
   "better-comments.tags": [
     {
       "tag": "!",
-      "color": "#FF80AB",
+      "color": "#FF00FB",
       "strikethrough": false,
       "backgroundColor": "transparent"
     },
     {
       "tag": "*!",
-      "color": "#FF80AB",
+      "color": "#FF00FB",
       "strikethrough": false,
       "backgroundColor": "transparent"
     },
@@ -124,7 +136,7 @@
       "backgroundColor": "transparent"
     },
     {
-      "tag": "*",
+      "tag": "note",
       "color": "#F4FF81",
       "strikethrough": false,
       "backgroundColor": "transparent"
@@ -146,5 +158,46 @@
   "jupyter.askForKernelRestart": false,
   "jupyter.askForLargeDataFrames": false,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "vsicons.dontShowNewVersionMessage": true
+  "vsicons.dontShowNewVersionMessage": true,
+
+  // * Vim Settings
+  "vim.handleKeys": {
+    "<C-w>": false,
+    "<C-p>": false,
+    "<C-f>": false
+  },
+  "vim.useSystemClipboard": true,
+  "vim.leader": "<space>",
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "h"],
+      "commands": [
+        {
+          "command": "editor.action.showHover",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "t", "c"],
+      "commands": [
+        {
+          "command": "workbench.action.closeActiveEditor"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "w", "s"],
+      "commands": [
+        {
+          "command": "workbench.action.splitEditor"
+        }
+      ]
+    }
+  ],
+  "github.copilot.editor.enableAutoCompletions": true,
+  "githubPullRequests.pullBranch": "never"
 }
