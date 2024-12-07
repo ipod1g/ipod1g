@@ -1,29 +1,38 @@
 // Place your key bindings in this file to override the defaults
 [
   {
-    "key": "ctrl+h",
-    "command": "workbench.action.navigateLeft"
+    "key": "ctrl+space",
+    "command": "-focusSuggestion",
+    "when": "suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
   },
   {
-    "key": "ctrl+l",
-    "command": "workbench.action.navigateRight"
+    "key": "ctrl+space",
+    "command": "-workbench.action.terminal.sendSequence",
+    "when": "terminalFocus && terminalShellIntegrationEnabled && !accessibilityModeEnabled && terminalShellType == 'pwsh'"
   },
   {
-    "key": "ctrl+k",
-    "command": "workbench.action.navigateUp"
+    "key": "ctrl+space",
+    "command": "-workbench.action.terminal.sendSequence",
+    "when": "config.terminal.integrated.shellIntegration.suggestEnabled && terminalFocus && terminalShellIntegrationEnabled && !accessibilityModeEnabled && terminalShellType == 'pwsh' || config.terminal.integrated.suggest.enabled && terminalFocus && terminalShellIntegrationEnabled && !accessibilityModeEnabled && terminalShellType == 'pwsh'"
   },
   {
-    "key": "ctrl+j",
-    "command": "workbench.action.navigateDown"
+    "key": "alt+`",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+space",
+    "command": "-editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+  },
+  {
+    "key": "alt+k",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+j",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
   }
-  // {
-  //   "key": "tab",
-  //   "command": "tab",
-  //   "when": "editorTextFocus && !editorReadonly && vim.mode == 'Normal"
-  // },
-  // {
-  //   "key": "shift+tab",
-  //   "command": "outdent",
-  //   "when": "editorTextFocus && !editorReadonly && vim.mode == 'Normal'"
-  // }
 ]
