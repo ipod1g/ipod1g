@@ -1,25 +1,27 @@
 ## VS Code extensions list
 - Auto Close Tag
 - Auto Rename Tag
+- Bookmarks
 - Better Comments
 - Color Highlight
-- Deno
-- Dev Containers
-- Docker
+- Conventional Commits
 - Error Lens
 - ESLint
 - Github Copilot
 - GitLens
 - Import Cost
 - indent-rainbow
+- Inline Parameters for VSCode
 - Live Share
-- Markdown Preview Github Styling
 - Prettier
 - Pretty TypeScript Errors
 - Tailwind CSS IntelliSense
 - Template String Converter
+- Turbo Console Log
 - Vibrancy Continued
+- VSCode Neovim
 - vscode-icons
+- vscode-styled-components
 - WSL
 ---
 Disabled
@@ -27,3 +29,8 @@ Disabled
 - Live Server
 - Prisma
 - Solarized Osaka
+- Deno
+- Dev Containers
+- Docker
+- Stripe
+- Markdown Preview Github Styling
