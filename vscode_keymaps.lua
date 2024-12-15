@@ -37,13 +37,13 @@ keymap("n", "<Esc>", "<Esc>:noh<CR>", opts)
 keymap("n", "U", "<C-r>", opts)
 
 -- remap ctrl+o's functionality to an easier combination 
-keymap("n", "<leader>b", "<Cmd>call <SNR>7_jump(v:count, 'back')<CR>", opts)
+keymap({"n", "v"}, "<leader>b", "<Cmd>call <SNR>7_jump(v:count, 'back')<CR>", opts)
 
 -- remap "extended" motions
 keymap({"n", "v"}, "H", "0", opts)
 keymap({"n", "v"}, "L", "$", opts)
-keymap({"n", "v"}, "J", "{", opts)
-keymap({"n", "v"}, "K", "}", opts)
+keymap({"n", "v"}, "J", "}", opts)
+keymap({"n", "v"}, "K", "{", opts)
 
 -- add an empty line before the cursor
 keymap("n", "<leader>o", "O<Esc>", opts)
@@ -67,3 +67,7 @@ keymap({"n", "v"}, "<leader>h", "<cmd>lua require('vscode').action('workbench.ac
 keymap({"n", "v"}, "<leader>l", "<cmd>lua require('vscode').action('workbench.action.navigateRight')<CR>")
 keymap({"n", "v"}, "<leader>k", "<cmd>lua require('vscode').action('workbench.action.navigateUp')<CR>")
 keymap({"n", "v"}, "<leader>j", "<cmd>lua require('vscode').action('workbench.action.navigateDown')<CR>")
+keymap({"n", "v"}, "<leader>1", "<cmd>lua require('vscode').action('workbench.action.previousEditorInGroup')<CR>")
+keymap({"n", "v"}, "<leader>2", "<cmd>lua require('vscode').action('workbench.action.nextEditorInGroup')<CR>")
+keymap({"n", "v"}, "<leader>[", "<cmd>lua require('vscode').action('editor.fold')<CR>")
+keymap({"n", "v"}, "<leader>]", "<cmd>lua require('vscode').action('editor.unfold')<CR>")
