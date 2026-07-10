@@ -36,7 +36,7 @@ keymap("n", "<Esc>", "<Esc>:noh<CR>", opts)
 -- remap redo
 keymap("n", "U", "<C-r>", opts)
 
--- remap ctrl+o's functionality to an easier combination 
+-- remap ctrl+o's functionality to an easier combination
 keymap({"n", "v"}, "<leader>b", "<Cmd>call <SNR>7_jump(v:count, 'back')<CR>", opts)
 
 -- remap "extended" motions
@@ -59,7 +59,7 @@ keymap({"n", "v"}, "<leader>h", "<cmd>lua require('vscode').action('editor.actio
 keymap({"n", "v"}, "<leader>a", "<cmd>lua require('vscode').action('editor.action.quickFix')<CR>")
 keymap({"n", "v"}, "<leader>sp", "<cmd>lua require('vscode').action('workbench.actions.view.problems')<CR>")
 keymap({"n", "v"}, "<leader>cn", "<cmd>lua require('vscode').action('notifications.clearAll')<CR>")
-keymap({"n", "v"}, "<leader>ff", "<cmd>lua require('vscode').action('workbench.action.quickOpen')<CR>")
+keymap({"n", "v"}, "<leader>f", "<cmd>lua require('vscode').action('workbench.action.quickOpen')<CR>")
 keymap({"n", "v"}, "<leader>cp", "<cmd>lua require('vscode').action('workbench.action.showCommands')<CR>")
 keymap({"n", "v"}, "<leader>pr", "<cmd>lua require('vscode').action('code-runner.run')<CR>")
 keymap({"n", "v"}, "<leader>fd", "<cmd>lua require('vscode').action('editor.action.formatDocument')<CR>")
@@ -71,3 +71,7 @@ keymap({"n", "v"}, "<leader>1", "<cmd>lua require('vscode').action('workbench.ac
 keymap({"n", "v"}, "<leader>2", "<cmd>lua require('vscode').action('workbench.action.nextEditorInGroup')<CR>")
 keymap({"n", "v"}, "<leader>[", "<cmd>lua require('vscode').action('editor.fold')<CR>")
 keymap({"n", "v"}, "<leader>]", "<cmd>lua require('vscode').action('editor.unfold')<CR>")
+keymap({"n", "v"}, "<leader>r", "<cmd>lua require('vscode').action('editor.action.rename')<CR>")
+keymap({"n", "v"}, "<leader>ff", "<cmd>lua require('vscode').action('find-it-faster.findWithinFiles')<CR>")
+keymap({"n", "v"}, "<leader>\\", "<cmd>lua require('vscode').action('workbench.action.splitEditor')<CR>")
+keymap({"n", "v"}, "<leader>gg", "<cmd>lua require('vscode').action('lazygit-vscode.toggle')<CR>")
