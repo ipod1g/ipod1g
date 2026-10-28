@@ -1,36 +1,62 @@
-## VS Code extensions list
-- Auto Close Tag
-- Auto Rename Tag
-- Bookmarks
-- Better Comments
-- Color Highlight
-- Conventional Commits
-- Error Lens
-- ESLint
-- Github Copilot
-- GitLens
-- Import Cost
-- indent-rainbow
-- Inline Parameters for VSCode
-- Live Share
-- Prettier
-- Pretty TypeScript Errors
-- Tailwind CSS IntelliSense
-- Template String Converter
-- Turbo Console Log
-- Vibrancy Continued
-- VSCode Neovim
-- vscode-icons
-- vscode-styled-components
-- WSL
----
-Disabled
-- ES7 + React/Redux/React-Native snippets
-- Live Server
-- Prisma
-- Solarized Osaka
-- Deno
-- Dev Containers
-- Docker
-- Stripe
-- Markdown Preview Github Styling
+# VS Code extensions
+
+Snapshot of installed extension packages on macOS, 28 October 2026.
+
+Extension IDs are deduplicated and sorted. Installed packages can be disabled; this inventory does not record enabled state, remote hosts, or other profiles. Versions are intentionally omitted.
+
+- `aaron-bond.better-comments`
+- `alefragnani.Bookmarks`
+- `astro-build.astro-vscode`
+- `asvetliakov.vscode-neovim`
+- `bierner.markdown-preview-github-styles`
+- `bradlc.vscode-tailwindcss`
+- `ChakrounAnas.turbo-console-log`
+- `Dart-Code.dart-code`
+- `dbaeumer.vscode-eslint`
+- `denoland.vscode-deno`
+- `drcika.apc-extension`
+- `dsznajder.es7-react-js-snippets`
+- `eamodio.gitlens`
+- `EditorConfig.EditorConfig`
+- `esbenp.prettier-vscode`
+- `formulahendry.auto-close-tag`
+- `formulahendry.auto-rename-tag`
+- `formulahendry.code-runner`
+- `GitHub.vscode-pull-request-github`
+- `GraphQL.vscode-graphql`
+- `GraphQL.vscode-graphql-syntax`
+- `illixion.vscode-vibrancy-continued`
+- `liamhammett.inline-parameters`
+- `meganrogge.template-string-converter`
+- `mhutchie.git-graph`
+- `ms-azuretools.vscode-containers`
+- `ms-azuretools.vscode-docker`
+- `ms-vscode-remote.remote-containers`
+- `ms-vscode-remote.remote-wsl`
+- `ms-vscode.cmake-tools`
+- `ms-vscode.cpptools`
+- `ms-vscode.cpptools-extension-pack`
+- `ms-vscode.cpptools-themes`
+- `ms-vscode.makefile-tools`
+- `ms-vsliveshare.vsliveshare`
+- `naumovs.color-highlight`
+- `oderwat.indent-rainbow`
+- `Prisma.prisma`
+- `redhat.vscode-yaml`
+- `ritwickdey.LiveServer`
+- `sherloach.solarized-osaka`
+- `slevesque.shader`
+- `styled-components.vscode-styled-components`
+- `stylelint.vscode-stylelint`
+- `subframe7536.custom-ui-style`
+- `TomPollak.lazygit-vscode`
+- `TomRijndorp.find-it-faster`
+- `twxs.cmake`
+- `Tyriar.luna-paint`
+- `unifiedjs.vscode-mdx`
+- `usernamehw.errorlens`
+- `vivaxy.vscode-conventional-commits`
+- `vscode-icons-team.vscode-icons`
+- `vscodevim.vim`
+- `wix.vscode-import-cost`
+- `YoavBls.pretty-ts-errors`

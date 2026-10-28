@@ -2,6 +2,11 @@
   <img alt="Galaxy Whirl" title="gif" width="620px" src="https://i.ibb.co/hCHZWnC/banner.png" alt="banner" border="0" />
 </p>
 <h1 align="left">Hi!</h1>
+
+### Editor setup
+
+My VS Code, Cursor, and Neovim configuration snapshots were refreshed from macOS on 28 October 2026. See [setup files and installation notes](SETUP.md).
+
 <h3 align="left">I am a self-taught Frontend web developer passionate about creating aesthetic and functional experiences!</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ipod1g&label=Profile%20views&color=E0B0FF&style=flat" alt="ipod1g profile views" /> </p>
 <p align="left">
